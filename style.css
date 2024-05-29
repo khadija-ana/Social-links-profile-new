@@ -1,0 +1,70 @@
+
+    body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+main{
+    background-color: rgb(31, 31, 31);
+    margin: 10% auto 10% auto;
+    width: 400px;
+    border-radius: 10px;
+}
+#menu{
+    width: 85%;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+}
+div{
+    margin: 15px auto;
+}
+img{
+    border-radius: 100px;
+    width: 100%;
+}
+#image{
+    width: 35%;
+    display: grid;
+    place-items: center;
+}
+#adreess{
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    width: 100%;
+}
+
+button{
+    background-color: hsl(0, 0%, 20%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 10px 32px;
+  text-align: center;
+ border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin:  8px auto ;
+  width: 100%;
+}
+button:is(:hover){
+    color: rgb(31, 31, 31);
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+body{
+    width: 375px;
+}
+main{
+    margin: 10% auto 10% auto;
+    width: 300px;
+    
+}
+}
